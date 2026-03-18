@@ -1,20 +1,21 @@
 
+
 # Projeto SOCKET - Jogos em Rede com Python
 
-## Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 SOCKET/
 │
-├── modulo_resta1.py      # Jogo "Resta Um"
-├── modulo_numpuz.py      # Jogo "Numpuz"
+├── clienteSOCKET.py      # Cliente
 ├── servidorSOCKET.py     # Servidor
-└── clienteSOCKET.py      # Cliente
+├── modulo_resta1.py      # Jogo "Resta 1"
+└── modulo_numpuz.py      # Jogo "Numpuz"
 ```
 
 ---
 
-## Descrição
+##  Descrição
 
 Este projeto implementa uma comunicação cliente-servidor usando **sockets TCP em Python**, permitindo:
 
@@ -24,14 +25,14 @@ Este projeto implementa uma comunicação cliente-servidor usando **sockets TCP 
 
 ---
 
-## Jogos Disponíveis
+##  Jogos Disponíveis
 
-* `1` → Numpuz 
+* `1` → Numpuz (quebra-cabeça)
 * `2` → Resta Um
 
 ---
 
-## Como Executar
+##  Como Executar
 
 ### 1. Rodar o servidor
 
@@ -39,7 +40,8 @@ Este projeto implementa uma comunicação cliente-servidor usando **sockets TCP 
 python servidorSOCKET.py
 ```
 
-O terminal pegará o endereço ip da máquina:
+O terminal exibirá o endereço ip da máquina:
+
 
 
 
@@ -63,7 +65,7 @@ python clienteSOCKET.py
 
 ---
 
-## Como Usar
+##  Como Usar
 
 Após a conexão:
 
@@ -76,7 +78,7 @@ Após a conexão:
 
 ---
 
-## Funcionamento
+##  Funcionamento
 
 ### Chat
 
@@ -97,14 +99,10 @@ Quando um dos lados escolhe `1` ou `2`:
 
 * Suporta apenas **1 cliente por vez**
 * Funciona em **rede local (mesma Wi-Fi)**
-* Os módulos de jogo devem estar implementados corretamente
-
 ---
 
 ##  Melhorias Futuras
 
-* Suporte a múltiplos clientes
-* Interface gráfica
 * Sistema de pontuação
 * Criptografia de mensagens
 
@@ -117,7 +115,7 @@ Quando um dos lados escolhe `1` ou `2`:
 
 ---
 
-## Objetivo
+##  Objetivo
 
 Projeto desenvolvido para estudo de:
 
@@ -126,8 +124,3 @@ Projeto desenvolvido para estudo de:
 * Programação com sockets
 
 ---
-
-## Licença
-
-Uso livre para fins educacionais.
- '''
