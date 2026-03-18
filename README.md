@@ -7,9 +7,9 @@
 SOCKET/
 │
 ├── clienteSOCKET.py      # Cliente
-├── servidorSOCKET.py     # Servidor
+├── modulo_numpuz.py      # Jogo "Numpuz"
 ├── modulo_resta1.py      # Jogo "Resta 1"
-└── modulo_numpuz.py      # Jogo "Numpuz"
+└── servidorSOCKET.py     # Servidor
 ```
 
 ---
