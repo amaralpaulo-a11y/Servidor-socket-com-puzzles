@@ -6,10 +6,10 @@
 ```
 SOCKET/
 │
-├── modulo_resta1.py      # Jogo "Resta Um"
-├── modulo_numpuz.py      # Jogo "Numpuz"
+├── clienteSOCKET.py      # Cliente
 ├── servidorSOCKET.py     # Servidor
-└── clienteSOCKET.py      # Cliente
+├── modulo_resta1.py      # Jogo "Resta 1"
+└── modulo_numpuz.py      # Jogo "Numpuz"
 ```
 
 ---
